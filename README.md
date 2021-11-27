@@ -5,7 +5,7 @@
 ## Instalation
 
 - Add the MapAndreas plugin and the heightmaps files to your SAMP server.
-- Install nuget package: https://www.nuget.org/packages/SampSharp.MapAndreas/1.0.0
+- Install nuget package: https://www.nuget.org/packages/SampSharp.MapAndreas
 
 ## Example
 
