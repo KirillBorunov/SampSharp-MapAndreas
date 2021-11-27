@@ -1,4 +1,5 @@
 
-SampSharp.MapAndreas/.vs/
+.vs/
 SampSharp.MapAndreas/SampSharp.MapAndreas/bin/
 SampSharp.MapAndreas/SampSharp.MapAndreas/obj/
+*.user

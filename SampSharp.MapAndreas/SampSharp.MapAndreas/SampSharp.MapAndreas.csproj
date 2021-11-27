@@ -11,6 +11,16 @@
     <RepositoryUrl>https://github.com/KirillBorunov/SampSharp-MapAndreas</RepositoryUrl>
     <PackageTags>samp;sampsharp;mapandreas;gamemode</PackageTags>
     <PackageProjectUrl>https://github.com/KirillBorunov/SampSharp-MapAndreas</PackageProjectUrl>
+    <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+    <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>$(DefineConstants)</DefineConstants>
   </PropertyGroup>
 
   <ItemGroup>
